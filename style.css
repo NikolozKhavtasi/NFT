@@ -1,0 +1,308 @@
+body {
+    background-color: #2B2B2B !important;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: SpaceMono;
+    src: url(SpaceMono-Regular.ttf);
+}
+
+* {
+    font-family: WorkSans;
+}
+
+.nav_toggler_c {
+    border: none !important;
+    margin-right: 30px;
+}
+
+.nav_burger_icon {
+    background-image: url(Burger\ Menu.png) !important;
+}
+
+.brand_img_c {
+    padding-right: 15px;
+    margin-top: -5px;
+}
+
+.brand_c {
+    margin-left: 50px;
+    color: #FFFFFF !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.ul_c {
+    position: absolute;
+    right: 50;
+    margin-top: 45px;
+}
+
+.nav_item_text_c {
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+}
+
+.nav_item_button_c {
+    width: 152px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    margin-top: -17.5px;
+    background-color: #A259FF;
+    display: flex;
+}
+
+.img_user {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.p_SU {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+
+.div_HS {
+    width: 510px;
+    height: 347px;
+}
+
+.h_H {
+    font-size: 67px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.h_H_sm {
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 900px) {
+    .h_H_sm {
+        display: none;
+    }
+}
+
+.p_S {
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.div_TAA {
+    width: 510px;
+    margin-top: 30px;
+}
+
+.div_TAA_sm {
+    width: 315px;
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 900px) {
+    .div_TAA_sm {
+        display: none;
+    }
+}
+
+.button_GS {
+    width: 224px;
+    height: 60px;
+    background-color: #A259FF;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+}
+
+.img_rocket {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.p_GS {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-left: 12px;
+}
+
+
+.div_AddInfo {
+    width: 510px;
+    margin-top: 30px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.div_AddInfo_3 {
+    width: 180px;
+}
+
+.p_AddInfo_num {
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: SpaceMono;
+}
+
+.p_AddInfo_3 {
+    font-size: 23.99px;
+    color: #FFFFFF;
+    margin-top: -12px;
+}
+
+.div_AnimaKid {
+    width: 510px;
+    height: 510px;
+    background-image: url(avatar.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 900px) {
+    .brand_c {
+        font-size: 16px !important;
+    }
+    .div_HS {
+        width: 315px;
+    }
+    .h_H {
+        display: none;
+    }
+    .p_S {
+        font-size: 16px;
+    }
+    .div_TAA {
+        display: none;
+    }
+    .div_AnimaKid {
+        margin-top: -170px;
+        width: 315px;
+        height: 315px;
+    }
+    .button_GS {
+        width: 315px;
+    }
+    .div_AddInfo {
+        width: 315px;
+    }
+
+    .div_AddInfo_3 {
+        width: 115px;
+    }
+
+    .p_AddInfo_num {
+        font-size: 22px;
+    }
+    .p_AddInfo_3 {
+        font-size: 16px;
+    }
+}
+
+.row_trending_headline {
+    margin-top: 120px !important;
+}
+
+.div_trending_headline {
+    width: 1046px;
+    height: 91px;
+}
+
+@media only screen and (min-width: 1400px) {
+    .div_trending_headline {
+        margin-left: 50px;
+    }
+}
+
+.h_TC {
+    font-size: 38px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.p_Checkout {
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .div_trending_headline {
+        width: 315px;
+        height: 93px;
+        margin: auto;
+    }
+    .h_TC {
+        font-size: 28px;
+    }
+    .p_Checkout {
+        font-size: 16px;
+    }
+    .row_trending_headline {
+        margin-top: 50px !important;
+    }
+}
+
+.div_trending_card {
+    width: 330px;
+    height: 525px;
+}
+
+.div_secondary_photos {
+    width: 325px;
+    height: 100px;
+    margin-top: 15px;
+    margin: auto;
+    display: flex;
+}
+
+.img_secondary_photo_2 {
+    margin-left: 15px;
+}
+
+.div_secondary_photos_num {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #A259FF;
+    border: none;
+    margin-left: 15px;
+}
+
+.p_secondary_photos_num {
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: SpaceMono;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.p_DGSN_A {
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 15px;
+    white-space: nowrap;
+}
+
+.p_AN {
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -22.5px;
+    margin-left: 40px;
+}
+
+
+
