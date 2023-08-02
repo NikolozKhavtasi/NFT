@@ -16,6 +16,10 @@ body {
     font-family: WorkSans;
 }
 
+.navbar {
+    background-color: #2B2B2B !important;
+}
+
 .nav_toggler_c {
     border: none !important;
     margin-right: 30px;
@@ -41,7 +45,11 @@ body {
 .ul_c {
     position: absolute;
     right: 50;
-    margin-top: 45px;
+    background-color: #2B2B2B !important;
+}
+
+.nav-item {
+    margin-top: 25px;
 }
 
 .nav_item_text_c {
@@ -262,7 +270,7 @@ body {
 .div_secondary_photos {
     width: 325px;
     height: 100px;
-    margin-top: 15px;
+    margin-top: 15px !important;
     margin: auto;
     display: flex;
 }
