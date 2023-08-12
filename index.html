@@ -7,9 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <!--
-            Navbar
-        -->
+
+        <!-- Navbar -->
+
         <nav class="navbar navbar-expand-lg pt-3">
             <a class="navbar-brand brand_c" href="#"><img src="Storefront.png" class="brand_img_c">NFT Marketplace</a>
             <button class="navbar-toggler nav_toggler_c" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,17 +38,17 @@
             </div>
         </nav>
         <div class="container" style="margin-top: 80px;">
-            <!--
-                Hero Section
-            -->
+
+            <!-- Hero Section -->
+
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-6 d-flex justify-content-center">
                     <div>
                         <div class="div_HS">
-                            <h1 class="h_H">
+                            <h1 class="h1_H">
                                 Discover<br> digital art & Collect NFTs
                             </h1>
-                            <h1 class="h_H_sm">
+                            <h1 class="h1_H_sm">
                                 Discover digital art & Collect NFTs
                             </h1>
                             <p class="p_S">
@@ -105,19 +105,19 @@
                     </div>
                 </div>
             </div>
-            <!--
-                Trending Collection
-            -->
+
+            <!-- Trending Collection -->
+
             <div class="row d-flex justify-content-center row_trending_headline">
                 <div class="col-lg-12 d-flex">
                     <div class="div_trending_headline">
-                        <h1 class="h_TC">Trending Collection</h1>
+                        <h1 class="h1_TC">Trending Collection</h1>
                         <p class="p_Checkout">Checkout our weekly updated trending collection.</p>
                     </div>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center mt-5">
-                <div class="col-sm-4 d-flex justify-content-center">
+            <div class="row d-flex justify-content-center mt-1">
+                <div class="col-sm d-flex justify-content-center mt-5">
                     <div class="div_trending_card">
                         <img src="Primary Photo Placeholder.png">
                         <div class="div_secondary_photos">
@@ -132,7 +132,7 @@
                         <p class="p_AN">MrFox</p>
                     </div>
                 </div>
-                <div class="col-sm-4 d-flex justify-content-center trending_card_2_3">
+                <div class="col-sm d-flex justify-content-center trending_card_2_3 mt-5">
                     <div class="div_trending_card">
                         <img src="Primary Photo Placeholder 2.png">
                         <div class="div_secondary_photos">
@@ -147,7 +147,7 @@
                         <p class="p_AN">Shroomie</p>
                     </div>
                 </div>
-                <div class="col-sm-4 d-flex justify-content-center trending_card_2_3">
+                <div class="col-sm d-flex justify-content-center trending_card_2_3 mt-5">
                     <div class="div_trending_card">
                         <img src="Primary Photo Placeholder 3.png">
                         <div class="div_secondary_photos">
@@ -162,17 +162,684 @@
                         <p class="p_AN">BeKind2Robots</p>
                     </div>
                 </div>
+
+                <!-- ("display: none; !important" didn't work in css file) -->
+
                 <style>
-                    @media only screen and (max-width: 900px) {
+                    @media only screen and (max-width: 1000px) {
                         .trending_card_2_3 {
                             display: none !important;
-                        }   
+                        }
+                        .row_topcr {
+                            display: none !important;
+                        }
                     }
                 </style>
-                <!--
-                    "display: none; !important" didn't work in css file
-                -->
+            </div>
+
+            <!-- Top Creators -->
+
+            <div class="row d-flex justify-content-center row_trending_headline">
+                <div class="col-lg-12 d-flex">
+                    <div class="div_trending_headline">
+                        <h1 class="h1_TC">Top creators</h1>
+                        <p class="p_Checkout">Checkout Top Rated Creators on the NFT Marketplace</p>
+                        <button type="button" class="button_view_rankings">
+                            <p class="p_view_rankings"><img src="RocketLaunch 2.png" class="img_view_rankings">View Rankings</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-5 row_topcr">
+                <div class="col-md-3 d-flex justify-content-center mt-3">
+                    <div class="div_creator_card">
+                        <div class="div_ranking_number">
+                            <p class="p_ranking_number">1</p>
+                        </div>
+                        <img src="Avatar Placeholder 5.png" class="img_creator_card">
+                        <h5 class="h5_creator_name">Keepitreal</h5>
+                        <p class="p_TS_ETH">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3">
+                    <div class="div_creator_card">
+                        <div class="div_ranking_number">
+                            <p class="p_ranking_number">2</p>
+                        </div>
+                        <img src="Avatar Placeholder 6.png" class="img_creator_card">
+                        <h5 class="h5_creator_name">DigiLab</h5>
+                        <p class="p_TS_ETH">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3">
+                    <div class="div_creator_card">
+                        <div class="div_ranking_number">
+                            <p class="p_ranking_number">3</p>
+                        </div>
+                        <img src="Avatar Placeholder 7.png" class="img_creator_card">
+                        <h5 class="h5_creator_name">GravityOne</h5>
+                        <p class="p_TS_ETH">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3">
+                    <div class="div_creator_card">
+                        <div class="div_ranking_number">
+                            <p class="p_ranking_number">4</p>
+                        </div>
+                        <img src="Avatar Placeholder 8.png" class="img_creator_card">
+                        <h5 class="h5_creator_name">Juanie</h5>
+                        <p class="p_TS_ETH">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-4 row_topcr">
+                <div class="col-md-3 d-flex justify-content-center mt-3">
+                    <div class="div_creator_card">
+                        <div class="div_ranking_number">
+                            <p class="p_ranking_number">5</p>
+                        </div>
+                        <img src="Avatar Placeholder 9.png" class="img_creator_card">
+                        <h5 class="h5_creator_name">BlueWhale</h5>
+                        <p class="p_TS_ETH">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3">
+                    <div class="div_creator_card">
+                        <div class="div_ranking_number">
+                            <p class="p_ranking_number">6</p>
+                        </div>
+                        <img src="Avatar Placeholder 10.png" class="img_creator_card">
+                        <h5 class="h5_creator_name">MrFox</h5>
+                        <p class="p_TS_ETH">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3">
+                    <div class="div_creator_card">
+                        <div class="div_ranking_number">
+                            <p class="p_ranking_number">7</p>
+                        </div>
+                        <img src="Avatar Placeholder 11.png" class="img_creator_card">
+                        <h5 class="h5_creator_name">Shroomie</h5>
+                        <p class="p_TS_ETH">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3">
+                    <div class="div_creator_card">
+                        <div class="div_ranking_number">
+                            <p class="p_ranking_number">8</p>
+                        </div>
+                        <img src="Avatar Placeholder 12.png" class="img_creator_card">
+                        <h5 class="h5_creator_name">Robotica</h5>
+                        <p class="p_TS_ETH">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-4 row_topcr">
+                <div class="col-md-3 d-flex justify-content-center mt-3">
+                    <div class="div_creator_card">
+                        <div class="div_ranking_number">
+                            <p class="p_ranking_number">9</p>
+                        </div>
+                        <img src="Avatar Placeholder 13.png" class="img_creator_card">
+                        <h5 class="h5_creator_name">RustyRobot</h5>
+                        <p class="p_TS_ETH">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3">
+                    <div class="div_creator_card">
+                        <div class="div_ranking_number">
+                            <p class="p_ranking_number_t2">10</p>
+                        </div>
+                        <img src="Avatar Placeholder 14.png" class="img_creator_card">
+                        <h5 class="h5_creator_name">Animakid</h5>
+                        <p class="p_TS_ETH">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3">
+                    <div class="div_creator_card">
+                        <div class="div_ranking_number">
+                            <p class="p_ranking_number_t2">11</p>
+                        </div>
+                        <img src="Avatar Placeholder 15.png" class="img_creator_card">
+                        <h5 class="h5_creator_name">Dogtu</h5>
+                        <p class="p_TS_ETH">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3">
+                    <div class="div_creator_card">
+                        <div class="div_ranking_number">
+                            <p class="p_ranking_number_t2">12</p>
+                        </div>
+                        <img src="Avatar Placeholder 16.png" class="img_creator_card">
+                        <h5 class="h5_creator_name">Ghiblier</h5>
+                        <p class="p_TS_ETH">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-3 row_topcr_sm">
+                <div class="col-md d-flex justify-content-center mt-2">
+                    <div class="div_creator_card_sm">
+                        <img src="Avatar Placeholder 17.png" class="img_creator_card_sm">
+                    </div>
+                    <div class="div_ranking_number_sm">
+                        <p class="p_ranking_number_sm">1</p>
+                    </div>
+                    <p class="p_creator_name_sm">Keepitreal</p>
+                    <p class="p_TS_ETH_sm">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-2 row_topcr_sm">
+                <div class="col-md d-flex justify-content-center mt-2">
+                    <div class="div_creator_card_sm">
+                        <img src="Avatar Placeholder 18.png" class="img_creator_card_sm">
+                    </div>
+                    <div class="div_ranking_number_sm">
+                        <p class="p_ranking_number_sm">2</p>
+                    </div>
+                    <p class="p_creator_name_sm">DigiLab</p>
+                    <p class="p_TS_ETH_sm">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-2 row_topcr_sm">
+                <div class="col-md d-flex justify-content-center mt-2">
+                    <div class="div_creator_card_sm">
+                        <img src="Avatar Placeholder 19.png" class="img_creator_card_sm">
+                    </div>
+                    <div class="div_ranking_number_sm">
+                        <p class="p_ranking_number_sm">3</p>
+                    </div>
+                    <p class="p_creator_name_sm">GravityOne</p>
+                    <p class="p_TS_ETH_sm">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-2 row_topcr_sm">
+                <div class="col-md d-flex justify-content-center mt-2">
+                    <div class="div_creator_card_sm">
+                        <img src="Avatar Placeholder 20.png" class="img_creator_card_sm">
+                    </div>
+                    <div class="div_ranking_number_sm">
+                        <p class="p_ranking_number_sm">4</p>
+                    </div>
+                    <p class="p_creator_name_sm">Juanie</p>
+                    <p class="p_TS_ETH_sm">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-2 row_topcr_sm">
+                <div class="col-md d-flex justify-content-center mt-2">
+                    <div class="div_creator_card_sm">
+                        <img src="Avatar Placeholder 21.png" class="img_creator_card_sm">
+                    </div>
+                    <div class="div_ranking_number_sm">
+                        <p class="p_ranking_number_sm">5</p>
+                    </div>
+                    <p class="p_creator_name_sm">BlueWhale</p>
+                    <p class="p_TS_ETH_sm">Total Sales:<span class="span_ETH"> 34.53 ETH</span></p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-5">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <button type="button" class="button_view_rankings_sm">
+                        <p class="p_view_rankings"><img src="RocketLaunch 2.png" class="img_view_rankings">View Rankings</p>
+                    </button>
+                </div>
+            </div>
+            <style>
+                @media only screen and (min-width: 1000px) {
+                    .row_topcr_sm {
+                        display: none !important;
+                    }
+                }
+                @media only screen and (max-width: 1000px) {
+                    .row_topcr {
+                        display: none !important;
+                    }
+                }
+            </style>
+
+            <!-- Browse Categories -->
+
+            <div class="row d-flex justify-content-center row_trending_headline row_mt_sm">
+                <div class="col-lg-12 d-flex">
+                    <div class="div_trending_headline">
+                        <h1 class="h1_TC">Browse Categories</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm d-flex justify-content-center mt-5">
+                    <div class="div_category_card">
+                        <img src="Image Placeholder 2.png">
+                        <div class="div_img_blur"></div>
+                    </div>
+                    <img src="Category icon.png" class="img_category_icon">
+                    <p class="p_category_card">Art</p>
+                </div>
+                <div class="col-sm d-flex justify-content-center mt-5">
+                    <div class="div_category_card">
+                        <img src="Image Placeholder 3.png">
+                        <div class="div_img_blur"></div>
+                    </div>
+                    <img src="Category icon 2.png" class="img_category_icon">
+                    <p class="p_category_card_t2">Collectibles</p>
+                </div>
+                <div class="col-sm d-flex justify-content-center mt-5">
+                    <div class="div_category_card">
+                        <img src="Image Placeholder 4.png">
+                        <div class="div_img_blur"></div>
+                    </div>
+                    <img src="Category icon 3.png" class="img_category_icon">
+                    <p class="p_category_card">Music</p>
+                </div>
+                <div class="col-sm d-flex justify-content-center mt-5">
+                    <div class="div_category_card">
+                        <img src="Image Placeholder 5.png">
+                        <div class="div_img_blur"></div>
+                    </div>
+                    <img src="Category icon 4.png" class="img_category_icon">
+                    <p class="p_category_card_t2">Photography</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm d-flex justify-content-center mt-5">
+                    <div class="div_category_card">
+                        <img src="Image Placeholder 6.png">
+                        <div class="div_img_blur"></div>
+                    </div>
+                    <img src="Category icon 5.png" class="img_category_icon">
+                    <p class="p_category_card">Video</p>
+                </div>
+                <div class="col-sm d-flex justify-content-center mt-5">
+                    <div class="div_category_card">
+                        <img src="Image Placeholder 7.png">
+                        <div class="div_img_blur"></div>
+                    </div>
+                    <img src="Category icon 6.png" class="img_category_icon">
+                    <p class="p_category_card">Utility</p>
+                </div>
+                <div class="col-sm d-flex justify-content-center mt-5">
+                    <div class="div_category_card">
+                        <img src="Image Placeholder 8.png">
+                        <div class="div_img_blur"></div>
+                    </div>
+                    <img src="Category icon 7.png" class="img_category_icon">
+                    <p class="p_category_card">Sport</p>
+                </div>
+                <div class="col-sm d-flex justify-content-center mt-5">
+                    <div class="div_category_card">
+                        <img src="Image Placeholder 9.png">
+                        <div class="div_img_blur"></div>
+                    </div>
+                    <img src="Category icon 8.png" class="img_category_icon">
+                    <p class="p_category_card_t2">Virtual worlds</p>
+                </div>
+            </div>
+            <br><br><br>
+
+            <!-- Discover More NFTs -->
+
+            <div class="row d-flex justify-content-center row_trending_headline">
+                <div class="col-lg-12 d-flex">
+                    <div class="div_trending_headline">
+                        <h1 class="h1_TC">Discover More NFTs</h1>
+                        <p class="p_Checkout">Explore New Trending NFTs</p>
+                        <button type="button" class="button_view_rankings button_see_all">
+                            <p class="p_view_rankings"><img src="Eye.png" class="img_view_rankings">See all</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-5">
+                <div class="col-sm d-flex justify-content-center mt-5">
+                    <div class="div_NFT_Card">
+                        <img src="Image Placeholder 10.png">
+                        <p class="p_NFT_Card_Title">Distant Galaxy</p>
+                        <div class="div_Artist_Avatar_Name">
+                            <img src="Avatar Placeholder 22.png">
+                            <p class="p_Artist_Name">MoonDancer</p>
+                        </div>
+                        <div class="div_Price_Highestbid">
+                            <div class="div_Price">
+                                <p class="p_PHB">Price</p>
+                                <p class="p_PHB_2">1.63 ETH</p>
+                            </div>
+                            <div class="div_Highestbid">
+                                <p class="p_PHB p_PHB_R">Highest bid</p>
+                                <p class="p_PHB_2 p_PHB_R">0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm d-flex justify-content-center mt-5">
+                    <div class="div_NFT_Card">
+                        <img src="Image Placeholder 11.png">
+                        <p class="p_NFT_Card_Title">Life On Edena</p>
+                        <div class="div_Artist_Avatar_Name">
+                            <img src="Avatar Placeholder 23.png">
+                            <p class="p_Artist_Name">NebulaKid</p>
+                        </div>
+                        <div class="div_Price_Highestbid">
+                            <div class="div_Price">
+                                <p class="p_PHB">Price</p>
+                                <p class="p_PHB_2">1.63 ETH</p>
+                            </div>
+                            <div class="div_Highestbid">
+                                <p class="p_PHB p_PHB_R">Highest bid</p>
+                                <p class="p_PHB_2 p_PHB_R">0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm d-flex justify-content-center mt-5">
+                    <div class="div_NFT_Card">
+                        <img src="Image Placeholder 12.png">
+                        <p class="p_NFT_Card_Title">AstroFiction</p>
+                        <div class="div_Artist_Avatar_Name">
+                            <img src="Avatar Placeholder 24.png">
+                            <p class="p_Artist_Name">Spaceone</p>
+                        </div>
+                        <div class="div_Price_Highestbid">
+                            <div class="div_Price">
+                                <p class="p_PHB">Price</p>
+                                <p class="p_PHB_2">1.63 ETH</p>
+                            </div>
+                            <div class="div_Highestbid">
+                                <p class="p_PHB p_PHB_R">Highest bid</p>
+                                <p class="p_PHB_2 p_PHB_R">0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <!--  Magic Mushrooms -->
+
+        <div class="div_mushroom">
+            <div class="container">
+                <div class="row d-flex justify-content-center row_mushroom">
+                    <div class="col-sm d-flex justify-content-center">
+                        <div class="div_240">
+                            <div class="div_Artist_Name_Button">
+                                <div class="div_Artist_Avatar_Name_2">
+                                    <img src="Avatar Placeholder 3.png" width="24" height="24" class="img_Artist_Avatar">
+                                    <p class="p_Artist_Name_2">Shroomie</p>
+                                </div>
+                                <h5 class="h5_Magic_Mushrooms">Magic Mushrooms</h5>
+                                <button type="button" class="button_See_NFT">
+                                    <p class="p_See_NFT"><img src="Eye.png" class="img_See_NFT"> See NFT</p>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="div_Auction_Timer">
+                            <p class="p_Auction_ends">Auction ends in:</p>
+                            <div class="div_Timer">
+                                <div>
+                                    <p class="p_HMS">59</p>
+                                    <p class="p_HMS_2">Hours</p>
+                                </div>
+                                <div class="div_Timer_M_S">
+                                    <p class="p_HMS">:</p>
+                                </div>
+                                <div class="div_Timer_M_S">
+                                    <p class="p_HMS">59</p>
+                                    <p class="p_HMS_2">Minutes</p>
+                                </div>
+                                <div class="div_Timer_M_S">
+                                    <p class="p_HMS">:</p>
+                                </div>
+                                <div class="div_Timer_M_S">
+                                    <p class="p_HMS">59</p>
+                                    <p class="p_HMS_2">Seconds</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg d-flex justify-content-center col_B_T">
+                        <div>
+                            <div class="div_Auction_Timer_2">
+                                <p class="p_Auction_ends">Auction ends in:</p>
+                                <div class="div_Timer">
+                                    <div>
+                                        <p class="p_HMS">59</p>
+                                        <p class="p_HMS_2">Hours</p>
+                                    </div>
+                                    <div class="div_Timer_M_S">
+                                        <p class="p_HMS">:</p>
+                                    </div>
+                                    <div class="div_Timer_M_S">
+                                        <p class="p_HMS">59</p>
+                                        <p class="p_HMS_2">Minutes</p>
+                                    </div>
+                                    <div class="div_Timer_M_S">
+                                        <p class="p_HMS">:</p>
+                                    </div>
+                                    <div class="div_Timer_M_S">
+                                        <p class="p_HMS">59</p>
+                                        <p class="p_HMS_2">Seconds</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="button_See_NFT_2">
+                                <p class="p_See_NFT"><img src="Eye.png" class="img_See_NFT"> See NFT</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- How It Works -->
+        
+        <div class="container">
+            <div class="row d-flex justify-content-center mt-5">
+                <div class="div_trending_headline">
+                    <h1 class="h1_TC">How It Works</h1>
+                    <p class="p_Checkout" style="font-size: 16px;">Find Out How To Get Started</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-5">
+                <div class="col-lg d-flex justify-content-center mt-3">
+                    <div class="div_Info_Card">
+                        <img src="Icon.png" class="img_Info_Card">
+                        <div class="div_card_details">
+                            <p class="p_Info_Card">
+                                Setup Your wallet
+                            </p>
+                            <p class="p_Info_Card_2">
+                                Set up your wallet of choice.
+                                 Connect it to the Animarket by
+                                  clicking the wallet icon in the top
+                                   right corner.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg d-flex justify-content-center mt-3">
+                    <div class="div_Info_Card">
+                        <img src="Icon 2.png" class="img_Info_Card">
+                        <div class="div_card_details">
+                            <p class="p_Info_Card">
+                                Create Collection
+                            </p>
+                            <p class="p_Info_Card_2">
+                                Upload your work and setup your
+                                 collection. Add a description,
+                                  social links and floor price.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg d-flex justify-content-center mt-3">
+                    <div class="div_Info_Card">
+                        <img src="Icon 3.png" class="img_Info_Card">
+                        <div class="div_card_details">
+                            <p class="p_Info_Card">
+                                Start Earning
+                            </p>
+                            <p class="p_Info_Card_2">
+                                Choose between auctions and
+                                 fixed-price listings. Start earning
+                                  by selling your NFTs or trading
+                                   others.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Join our weekly digest -->
+
+            <div class="row d-flex justify-content-center mt-5">
+                <div class="col-sm d-flex justify-content-center mt-5">
+                    <div class="div_Subscribe_Widget">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg d-flex justify-content-center">
+                                <div class="div_photo"></div>
+                            </div>
+                            <div class="col-lg d-flex justify-content-center">
+                                <div class="div_179">
+                                    <div class="div_Headline_Subhead">
+                                        <h5 class="h5_Headline">
+                                            Join our weekly<br>
+                                             digest
+                                        </h5>
+                                        <p class="p_Subhead">
+                                            Get exclusive promotions & updates<br>
+                                             straight to your inbox.
+                                        </p>
+                                    </div>
+                                    <div class="div_subscribe_form">
+                                        <input type="email" placeholder="Enter your email here" class="input_subscribe_email">
+                                        <button type="button" class="button_Subscribe">
+                                            <P class="p_button_Subscribe">
+                                                <img src="EnvelopeSimple.png" class="img_button_Subscribe">
+                                                Subscribe
+                                            </P>
+                                        </button>
+                                    </div>
+                                    <div class="div_subscribe_form_sm">
+                                        <input type="email" placeholder="Enter Your Email Address" class="input_subscribe_email_sm">
+                                        <button type="button" class="button_Subscribe_sm">
+                                            <P class="p_button_Subscribe">
+                                                <img src="EnvelopeSimple.png" class="img_button_Subscribe">
+                                                Subscribe
+                                            </P>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+
+                    <!-- NFT Marketplace -->
+
+                    <div class="col-lg d-flex justify-content-center mt-5">
+                        <div class="div_NFT_Marketplace_Info">
+                            <h5 class="h5_H">
+                                <img src="Storefront.png" class="brand_img_c">
+                                NFT Marketplace
+                            </h5>
+                            <div class="div_AddInfo_4">
+                                <p class="p_S">
+                                    NFT marketplace UI created with Anima for Figma.
+                                </p>
+                                <p class="p_S">
+                                    Join our community
+                                </p>
+                                <div class="div_Icons">
+                                    <a href="#">
+                                        <img src="DiscordLogo.png">
+                                    </a>
+                                    <a href="#" class="a_ml_10">
+                                        <img src="YoutubeLogo.png">
+                                    </a>
+                                    <a href="#" class="a_ml_10">
+                                        <img src="TwitterLogo.png">
+                                    </a>
+                                    <a href="#" class="a_ml_10">
+                                        <img src="InstagramLogo.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Explore -->
+
+                    <div class="col-lg d-flex justify-content-center mt-5">
+                        <div class="div_NFT_Marketplace_Info">
+                            <h5 class="h5_H">
+                                Explore
+                            </h5>
+                            <div class="div_AddInfo_4">
+                                <p class="p_S">
+                                    Marketplace
+                                </p>
+                                <p class="p_S">
+                                    Rankings
+                                </p>
+                                <p class="p_S">
+                                    Connect a wallet
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Join Our Weekly Digest -->
+
+                    <div class="col-lg d-flex justify-content-center mt-5">
+                        <div class="div_NFT_Marketplace_Info">
+                            <h5 class="h5_H">
+                                Join Our Weekly Digest
+                            </h5>
+                            <div class="div_AddInfo_4_2">
+                                <p class="p_S">
+                                    Get exclusive promotions & updates<br>
+                                     straight to your inbox.
+                                </p>
+                                <div class="div_subscribe_form">
+                                    <input type="email" placeholder="Enter your email here" class="input_subscribe_email">
+                                    <button type="button" class="button_Subscribe">
+                                        <P class="p_button_Subscribe">
+                                            <img src="EnvelopeSimple.png" class="img_button_Subscribe">
+                                            Subscribe
+                                        </P>
+                                    </button>
+                                </div>
+                                <div class="div_subscribe_form_sm">
+                                    <input type="email" placeholder="Enter Your Email Address" class="input_subscribe_email_sm">
+                                    <button type="button" class="button_Subscribe_sm">
+                                        <P class="p_button_Subscribe">
+                                            <img src="EnvelopeSimple.png" class="img_button_Subscribe">
+                                            Subscribe
+                                        </P>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Divider -->
+                    
+                    <div class="col-lg d-flex justify-content-center mt-5">
+                        <div class="div_239">
+                            <p class="p_Copyright">
+                                Ⓒ NFT Market. Use this template freely.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
