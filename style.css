@@ -228,6 +228,10 @@ body {
     height: 91px;
 }
 
+.c_ws_nw {
+    white-space: nowrap;
+}
+
 @media only screen and (min-width: 1400px) {
     .div_trending_headline {
         margin-left: 50px;
@@ -248,7 +252,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
     .div_trending_headline {
-        width: 0px;
+        width: px;
         height: 93px;
         margin: auto;
     }
