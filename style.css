@@ -501,6 +501,37 @@ body {
     margin-left: -60px;
 }
 
+@media only screen and (max-width: 1000px) {
+    .div_category_card {
+        width: 147.5px;
+        height: 209px;
+    }
+    .img_ph_123 {
+        width: 148px;
+        height: 142px;
+    }
+    .div_img_blur {
+        width: 148px;
+        height: 150px;
+        margin-top: -150px;
+    }
+    .img_category_icon {
+        width: 80px;
+        height: 80px;
+        margin-top: 30px;   
+    }
+    .p_category_card {
+        font-size: 16px;
+        margin-top: 165px;
+        margin-left: -75px;
+    }
+    .p_category_card_t2 {
+        font-size: 16px;
+        margin-top: 165px;
+        margin-left: -15px;
+    }
+}
+
 .button_see_all {
     width: 187px;
 }
