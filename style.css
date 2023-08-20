@@ -1,6 +1,5 @@
 body {
     background-color: #2B2B2B !important;
-    overflow-x: hidden;
 }
 
 @font-face {
@@ -249,7 +248,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
     .div_trending_headline {
-        width: 315px;
+        width: 0px;
         height: 93px;
         margin: auto;
     }
@@ -711,7 +710,7 @@ body {
     .div_mushroom {
         height: 593px;
         background-image: url(NFT_Highlight_Mobile.png);
-        background-size: 375px 593px;
+        background-size: 100% 593px;
     }
     .row_mushroom {
         margin-top: 120px !important;
@@ -831,7 +830,6 @@ body {
 }
 
 .div_Headline_Subhead {
-    width: 425px;
     height: 172px;
     margin-top: 70px;
 }
@@ -848,7 +846,6 @@ body {
 }
 
 .div_subscribe_form {
-    width: 425px;
     height: 60px;
     border-radius: 20px;
     margin-top: 40px;
@@ -889,7 +886,7 @@ body {
 }
 
 .input_subscribe_email_sm {
-    width: 415px;
+    width: 315px;
     height: 46px;
     border-radius: 20px;
     border: none;
@@ -900,8 +897,10 @@ body {
     outline: none;
 }
 
+
+
 .button_Subscribe_sm {
-    width: 415px;
+    width: 315px;
     height: 46px;
     background-color: #A259FF;
     border-radius: 20px;
@@ -923,6 +922,11 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
+    .div_photo {
+        width: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
     .h5_Headline {
         font-size: 28px;
     }
@@ -945,7 +949,6 @@ body {
 }
 
 .div_NFT_Marketplace_Info {
-    width: 327px;
     height: 191px;
 }
 
@@ -957,7 +960,6 @@ body {
 }
 
 .div_AddInfo_4 {
-    width: 238px;
     margin-top: 30px;
 }
 
@@ -977,7 +979,6 @@ body {
 }
 
 .div_AddInfo_4_2 {
-    width: 420px;
     height: 124px;
     margin-top: 30px;
 }
@@ -990,6 +991,8 @@ body {
     background-color: #FFFFFF;
     display: flex;
 }
+
+div_subscribe_form_sm
 
 .div_239 {
     width: 1150px;
@@ -1005,7 +1008,7 @@ body {
 
 @media only screen and (max-width: 1100px) {
     .footer {
-        margin-top: 500px;
+        margin-top: 400px;
         height: 850px;
     }
     .div_AddInfo_4 {
@@ -1013,5 +1016,11 @@ body {
     }
     .div_239 {
         width: 315px;
+    }
+    .c_ml {
+        margin-left: 20px !important;
+    }
+    .c_ml_2 {
+        margin-left: 80px;
     }
 }
