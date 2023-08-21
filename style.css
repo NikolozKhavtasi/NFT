@@ -819,7 +819,7 @@ body {
 }
 
 .div_Subscribe_Widget {
-    width: 1050px;
+    width: 1100px;
     height: 430px;
     border-radius: 20px;
     background-color: #3B3B3B;
@@ -910,6 +910,12 @@ body {
     border-radius: 20px;
     border: none;
     margin-top: 16px;
+}
+
+@media only screen and (min-width: 1425px) {
+    .div_Subscribe_Widget {
+        width: 1220px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
