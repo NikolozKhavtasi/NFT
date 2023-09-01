@@ -228,6 +228,12 @@ body {
     height: 91px;
 }
 
+@media only screen and (max-width: 780px) {
+    .s_325 {
+        width: 325px;
+    }
+}
+
 .c_ws_nw {
     white-space: nowrap;
 }
@@ -252,7 +258,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
     .div_trending_headline {
-        width: px;
+        width: 330px;
         height: 93px;
         margin: auto;
     }
@@ -265,6 +271,14 @@ body {
     .row_trending_headline {
         margin-top: 50px !important;
     }
+}
+
+.col_s {
+    width: 335px !important;
+}
+
+.col_s_s {
+    width: 148px !important;
 }
 
 .div_trending_card {
@@ -325,7 +339,7 @@ body {
     border: 2px solid #A259FF;
     background-color: #2B2B2B;
     margin-top: -82.5px;
-    margin-left: 850px;
+    margin-left: 730px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -399,7 +413,7 @@ body {
 }
 
 .div_creator_card_sm {
-    width: 315px;
+    width: 330px !important;
     height: 100px;
     border-radius: 20px;
     background-color: #3B3B3B;
@@ -537,6 +551,7 @@ body {
 
 .button_see_all {
     width: 187px;
+    margin-left: 790px !important;
 }
 
 .div_NFT_Card {
@@ -933,9 +948,17 @@ body {
 
 @media only screen and (max-width: 1000px) {
     .div_photo {
-        width: 100%;
+        width: 330px;
         background-size: 100%;
         background-repeat: no-repeat;
+    }
+    .div_Headline_Subhead {
+        margin-left: 0px !important;
+    }
+    .div_179 {
+        width: 315px;
+        margin-top: -180px;
+        margin-left: 0px !important;
     }
     .h5_Headline {
         font-size: 28px;
@@ -948,6 +971,9 @@ body {
     }
     .div_subscribe_form {
         display: none !important;
+    }
+    .div_subscribe_form_sm {
+        margin-left: 0px !important;
     }
 }
 
@@ -1002,12 +1028,7 @@ body {
     display: flex;
 }
 
-div_subscribe_form_sm
-
-.div_239 {
-    width: 1150px;
-    height: 33px;
-    border-top: 1px solid #858584;
+.div_subscribe_form_sm {
 }
 
 .p_Copyright {
@@ -1018,14 +1039,14 @@ div_subscribe_form_sm
 
 @media only screen and (max-width: 1100px) {
     .footer {
-        margin-top: 400px;
+        margin-top: 230px;
         height: 850px;
     }
     .div_AddInfo_4 {
         width: 320px;
     }
     .div_239 {
-        width: 315px;
+        width: 315px !important;
     }
     .c_ml {
         margin-left: 20px !important;
@@ -1033,4 +1054,14 @@ div_subscribe_form_sm
     .c_ml_2 {
         margin-left: 80px;
     }
+    .c_ml_3 {
+        margin-left: 185px !important;
+    }
 }
+
+@media only screen and (max-width: 780px) {
+    .c_ml_3 {
+        margin-left: 22.5px !important;
+    }
+} 
+

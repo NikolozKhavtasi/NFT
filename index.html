@@ -41,7 +41,7 @@
 
             <!-- Hero Section -->
 
-            <div class="row">
+            <div class="row row_1050">
                 <div class="col-lg-6 d-flex justify-content-center">
                     <div>
                         <div class="div_HS">
@@ -105,10 +105,17 @@
                     </div>
                 </div>
             </div>
-
+            <style>
+                @media only screen and (min-width: 1000px) {
+                    .row_1050 {
+                        width: 1050px !important;
+                        margin: auto;
+                    }
+                }
+                </style>
             <!-- Trending Collection -->
 
-            <div class="row row_trending_headline">
+            <div class="row row_trending_headline row_1050">
                 <div class="col-lg-12 d-flex">
                     <div class="div_trending_headline">
                         <h1 class="h1_TC c_ws_nw">Trending Collection</h1>
@@ -116,8 +123,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-1">
-                <div class="col-sm d-flex justify-content-center mt-5">
+            <div class="row mt-1 row_1050 justify-content-center">
+                <div class="col-sm d-flex justify-content-center mt-5 col_s">
                     <div class="div_trending_card">
                         <img src="Primary Photo Placeholder.png">
                         <div class="div_secondary_photos">
@@ -132,7 +139,7 @@
                         <p class="p_AN">MrFox</p>
                     </div>
                 </div>
-                <div class="col-sm d-flex justify-content-center trending_card_2_3 mt-5">
+                <div class="col-sm d-flex justify-content-center trending_card_2_3 mt-5 col_s">
                     <div class="div_trending_card">
                         <img src="Primary Photo Placeholder 2.png">
                         <div class="div_secondary_photos">
@@ -147,7 +154,7 @@
                         <p class="p_AN">Shroomie</p>
                     </div>
                 </div>
-                <div class="col-sm d-flex justify-content-center trending_card_2_3 mt-5">
+                <div class="col-sm d-flex justify-content-center trending_card_2_3 mt-5 col_s">
                     <div class="div_trending_card">
                         <img src="Primary Photo Placeholder 3.png">
                         <div class="div_secondary_photos">
@@ -163,8 +170,6 @@
                     </div>
                 </div>
 
-                <!-- ("display: none; !important" didn't work in css file) -->
-
                 <style>
                     @media only screen and (max-width: 1000px) {
                         .trending_card_2_3 {
@@ -179,7 +184,7 @@
 
             <!-- Top Creators -->
 
-            <div class="row  row_trending_headline">
+            <div class="row row_trending_headline row_1050">
                 <div class="col-lg-12 d-flex">
                     <div class="div_trending_headline">
                         <h1 class="h1_TC c_ws_nw">Top creators</h1>
@@ -190,7 +195,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row  mt-5 row_topcr">
+            <div class="row  mt-5 row_topcr row_1050">
                 <div class="col-md-3 d-flex justify-content-center mt-3">
                     <div class="div_creator_card">
                         <div class="div_ranking_number">
@@ -232,7 +237,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row  mt-4 row_topcr">
+            <div class="row  mt-4 row_topcr row_1050">
                 <div class="col-md-3 d-flex justify-content-center mt-3">
                     <div class="div_creator_card">
                         <div class="div_ranking_number">
@@ -274,7 +279,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row  mt-4 row_topcr">
+            <div class="row  mt-4 row_topcr row_1050">
                 <div class="col-md-3 d-flex justify-content-center mt-3">
                     <div class="div_creator_card">
                         <div class="div_ranking_number">
@@ -398,15 +403,15 @@
 
             <!-- Browse Categories -->
 
-            <div class="row  row_trending_headline row_mt_sm">
+            <div class="row row_trending_headline row_mt_sm row_1050">
                 <div class="col-lg-12 d-flex">
                     <div class="div_trending_headline">
                         <h1 class="h1_TC c_ws_nw">Browse Categories</h1>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-sm d-flex justify-content-center mt-5 col_cc">
+            <div class="row justify-content-center row_1050">
+                <div class="col-sm d-flex justify-content-center mt-5 col_cc col_s_s">
                     <div class="div_category_card">
                         <img src="Image Placeholder 2.png" class="img_ph_123">
                         <div class="div_img_blur"></div>
@@ -414,7 +419,7 @@
                     <img src="Category icon.png" class="img_category_icon">
                     <p class="p_category_card">Art</p>
                 </div>
-                <div class="col-md d-flex justify-content-center mt-5 col_cc" style="flex-wrap: nowrap !important;">
+                <div class="col-md d-flex justify-content-center mt-5 col_cc col_s_s" style="flex-wrap: nowrap !important;">
                     <div class="div_category_card">
                         <img src="Image Placeholder 3.png" class="img_ph_123">
                         <div class="div_img_blur"></div>
@@ -422,7 +427,7 @@
                     <img src="Category icon 2.png" class="img_category_icon">
                     <p class="p_category_card_t2">Collectibles</p>
                 </div>
-                <div class="col-sm d-flex justify-content-center mt-5 col_cc">
+                <div class="col-sm d-flex justify-content-center mt-5 col_cc col_s_s">
                     <div class="div_category_card">
                         <img src="Image Placeholder 4.png" class="img_ph_123">
                         <div class="div_img_blur"></div>
@@ -430,7 +435,7 @@
                     <img src="Category icon 3.png" class="img_category_icon">
                     <p class="p_category_card">Music</p>
                 </div>
-                <div class="col-md d-flex justify-content-center mt-5 col_cc">
+                <div class="col-md d-flex justify-content-center mt-5 col_cc col_s_s">
                     <div class="div_category_card">
                         <img src="Image Placeholder 5.png" class="img_ph_123">
                         <div class="div_img_blur"></div>
@@ -439,8 +444,8 @@
                     <p class="p_category_card_t2">Photography</p>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-sm d-flex justify-content-center mt-5 col_cc">
+            <div class="row justify-content-center row_1050">
+                <div class="col-sm d-flex justify-content-center mt-5 col_cc col_s_s">
                     <div class="div_category_card">
                         <img src="Image Placeholder 6.png" class="img_ph_123">
                         <div class="div_img_blur"></div>
@@ -448,7 +453,7 @@
                     <img src="Category icon 5.png" class="img_category_icon">
                     <p class="p_category_card">Video</p>
                 </div>
-                <div class="col-md d-flex justify-content-center mt-5 col_cc">
+                <div class="col-md d-flex justify-content-center mt-5 col_cc col_s_s">
                     <div class="div_category_card">
                         <img src="Image Placeholder 7.png" class="img_ph_123">
                         <div class="div_img_blur"></div>
@@ -456,7 +461,7 @@
                     <img src="Category icon 6.png" class="img_category_icon">
                     <p class="p_category_card">Utility</p>
                 </div>
-                <div class="col-sm d-flex justify-content-center mt-5 col_cc">
+                <div class="col-sm d-flex justify-content-center mt-5 col_cc col_s_s">
                     <div class="div_category_card">
                         <img src="Image Placeholder 8.png" class="img_ph_123">
                         <div class="div_img_blur"></div>
@@ -464,7 +469,7 @@
                     <img src="Category icon 7.png" class="img_category_icon">
                     <p class="p_category_card">Sport</p>
                 </div>
-                <div class="col-md d-flex justify-content-center mt-5 col_cc">
+                <div class="col-md d-flex justify-content-center mt-5 col_cc col_s_s">
                     <div class="div_category_card">
                         <img src="Image Placeholder 9.png" class="img_ph_123">
                         <div class="div_img_blur"></div>
@@ -485,7 +490,7 @@
 
             <!-- Discover More NFTs -->
 
-            <div class="row row_trending_headline">
+            <div class="row row_trending_headline row_1050">
                 <div class="col-lg-12 d-flex">
                     <div class="div_trending_headline">
                         <h1 class="h1_TC c_ws_nw">Discover More NFTs</h1>
@@ -496,8 +501,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row  mt-5">
-                <div class="col-sm d-flex justify-content-center mt-5">
+            <div class="row mt-5 justify-content-center row_1050">
+                <div class="col-sm d-flex justify-content-center mt-5 col_s">
                     <div class="div_NFT_Card">
                         <img src="Image Placeholder 10.png">
                         <p class="p_NFT_Card_Title">Distant Galaxy</p>
@@ -517,7 +522,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm d-flex justify-content-center mt-5">
+                <div class="col-sm d-flex justify-content-center mt-5 col_s">
                     <div class="div_NFT_Card">
                         <img src="Image Placeholder 11.png">
                         <p class="p_NFT_Card_Title">Life On Edena</p>
@@ -537,7 +542,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm d-flex justify-content-center mt-5">
+                <div class="col-sm d-flex justify-content-center mt-5 col_s">
                     <div class="div_NFT_Card">
                         <img src="Image Placeholder 12.png">
                         <p class="p_NFT_Card_Title">AstroFiction</p>
@@ -564,7 +569,7 @@
 
         <div class="div_mushroom">
             <div class="container">
-                <div class="row  row_mushroom">
+                <div class="row row_mushroom row_1050">
                     <div class="col-sm d-flex justify-content-center">
                         <div class="div_240">
                             <div class="div_Artist_Name_Button">
@@ -640,14 +645,14 @@
         <!-- How It Works -->
         
         <div class="container">
-            <div class="row  mt-5">
-                <div class="div_trending_headline">
+            <div class="row justify-content-center mt-5 row_1050">
+                <div class="div_trending_headline s_325">
                     <h1 class="h1_TC">How It Works</h1>
                     <p class="p_Checkout" style="font-size: 16px;">Find Out How To Get Started</p>
                 </div>
             </div>
-            <div class="row  mt-5">
-                <div class="col-lg d-flex justify-content-center mt-3">
+            <div class="row justify-content-center mt-5 row_1050">
+                <div class="col-lg d-flex justify-content-center mt-3 col_s">
                     <div class="div_Info_Card">
                         <img src="Icon.png" class="img_Info_Card">
                         <div class="div_card_details">
@@ -663,7 +668,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg d-flex justify-content-center mt-3">
+                <div class="col-lg d-flex justify-content-center mt-3 col_s">
                     <div class="div_Info_Card">
                         <img src="Icon 2.png" class="img_Info_Card">
                         <div class="div_card_details">
@@ -678,7 +683,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg d-flex justify-content-center mt-3">
+                <div class="col-lg d-flex justify-content-center mt-3 col_s">
                     <div class="div_Info_Card">
                         <img src="Icon 3.png" class="img_Info_Card">
                         <div class="div_card_details">
@@ -698,7 +703,7 @@
 
             <!-- Join our weekly digest -->
 
-            <div class="row  mt-5">
+            <div class="row mt-5 row_1050">
                 <div class="col-sm d-flex justify-content-center mt-5">
                     <div class="div_Subscribe_Widget">
                         <div class="row ">
@@ -806,7 +811,7 @@
                     <!-- Join Our Weekly Digest -->
 
                     <div class="col-lg mt-5">
-                        <div class="div_NFT_Marketplace_Info c_ml">
+                        <div class="div_NFT_Marketplace_Info c_ml c_ml_3">
                             <h5 class="h5_H">
                                 Join Our Weekly Digest
                             </h5>
@@ -840,7 +845,7 @@
                     <!-- Divider -->
                     
                     <div class="col-lg d-flex justify-content-center mt-5">
-                        <div class="div_239">
+                        <div class="div_239" style="width: 1150px; height: 33px; border-top: 1px solid #858584; margin-top: 30px;">
                             <p class="p_Copyright">
                                 Ⓒ NFT Market. Use this template freely.
                             </p>
