@@ -281,6 +281,12 @@ body {
     width: 148px !important;
 }
 
+@media only screen and (max-width: 780px) {
+    .col_c_d {
+        width: 170px !important;
+    }
+}
+
 .div_trending_card {
     width: 330px;
     height: 525px;
